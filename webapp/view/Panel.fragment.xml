@@ -1,0 +1,16 @@
+<core:FragmentDefinition xmlns:core="sap.ui.core"
+                         xmlns="sap.m"
+>
+<Panel id="idPanel" headerText="Detail View" width="50%" expandable="true" expanded="{exP>/exP}" >
+    <Label text="Connection ID" ></Label>
+    <Input value="{connId}" editable="false" ></Input>
+    <Label text="City From" ></Label>
+    <Input value="{cityFrom}" editable="false" ></Input>  
+    <Label text="City To" ></Label>
+    <Input value="{cityTo}" editable="false" ></Input>  
+
+</Panel>
+
+
+
+</core:FragmentDefinition>

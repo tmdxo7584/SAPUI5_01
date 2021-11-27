@@ -1,0 +1,51 @@
+<core:FragmentDefinition xmlns:core="sap.ui.core"
+                        xmlns="sap.m"
+>
+
+                    <!-- <Table headerText="Airlines" items="{/data}" selectionChange="onSelect" mode="SingleSelectMaster" >
+                                <columns>
+                                    <Column ><Text text=" ID" ></Text></Column>
+                                    <Column ><Text text=" Airline Name" ></Text></Column>
+                                    <Column ><Text text=" Currency" ></Text></Column>
+                                    <Column ><Text text=" URL" ></Text></Column>
+                                </columns>
+                                <items>
+                                    <ColumnListItem >
+                                        <cells>
+                                        <Text text="{carrier/carrId}" ></Text>
+                                        <Text text="{carrier/carrName}" ></Text>
+                                        <Text text="{carrier/currCode}" ></Text>
+                                        <Text text="{carrier/url}" ></Text>
+                                        
+                                        </cells>
+                                    </ColumnListItem>
+                                </items>
+                    </Table> -->
+                    <Table headerText="Airlines" items="{connections}" id="idTable" selectionChange="onData" mode="SingleSelectMaster" >
+                                <columns>
+                                    <Column ><Text text=" Connection Id" ></Text></Column>
+                                    <Column ><Text text=" City From" ></Text></Column>
+                                    <Column ><Text text=" City To" ></Text></Column>
+                                </columns>
+                                <items>
+                                    <ColumnListItem  >
+                                        <cells>
+                                        <Text text="{connId}" ></Text>
+                                        <Text text="{cityFrom}" ></Text>
+                                        <Text text="{cityTo}" ></Text>
+                                        
+                                        </cells>
+                                    </ColumnListItem>
+                                </items>
+                    </Table>
+
+                    
+
+
+
+
+
+
+
+
+</core:FragmentDefinition>

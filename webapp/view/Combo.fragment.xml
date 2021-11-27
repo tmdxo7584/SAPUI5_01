@@ -1,0 +1,17 @@
+<core:FragmentDefinition xmlns:core="sap.ui.core"
+                        xmlns="sap.m"
+>
+
+    <ComboBox items="{/data}" selectionChange="onSelectCombo"  >
+        <items>
+            <core:Item  text="{carrier/carrName}" ></core:Item>
+        </items>
+    
+    
+    </ComboBox>
+
+
+
+
+
+</core:FragmentDefinition>
